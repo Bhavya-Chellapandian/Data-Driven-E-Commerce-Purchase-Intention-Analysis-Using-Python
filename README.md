@@ -174,16 +174,25 @@ Summarized analytical findings and translated them into practical business recom
 
 ## 📁 Project Structure
 
+The repository currently contains the following files:
+
 ```text
-Data-Driven-E-Commerce-Purchase-Intention-Analysis/
+Data-Driven-E-Commerce-Purchase-Intention-Analysis-Using-Python/
 │
 ├── Data_Driven_E_Commerce_Purchase_Intention_Analysis_Using_Python.ipynb
-│
 ├── Data_Driven_E_Commerce_Purchase_Intention_Analysis_Using_Python_Project_Documentation.pdf
-│
 ├── online_shoppers_intention.csv
-│
+├── online_shoppers_cleaned_engineered.csv
 └── README.md
+```
+
+**File guide:**
+
+- **Notebook:** Main Python analysis, data cleaning, feature engineering, visualizations and interpretations.
+- **Project documentation:** PDF describing the dataset, problem statement, objectives, features and project methodology.
+- **Original dataset:** Source CSV used for the analysis.
+- **Cleaned and engineered dataset:** Processed CSV containing the cleaned data and additional analytical features.
+- **README:** Project overview, visual highlights, findings and instructions.
 
 ## ▶️ How to Run the Project
 
