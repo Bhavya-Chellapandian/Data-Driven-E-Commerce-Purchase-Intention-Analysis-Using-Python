@@ -57,6 +57,33 @@ Sakar, C. & Kastro, Y. (2018). *Online Shoppers Purchasing Intention Dataset*. U
 | Seaborn | Statistical visualization |
 | Google Colab / Jupyter Notebook | Development environment |
 
+## 📊 Project Visual Highlights
+
+The following charts provide a quick visual summary of selected findings from the analysis.
+
+| Purchase Outcome | Conversion by Visitor Type |
+|---|---|
+| ![Purchase outcome distribution](https://quickchart.io/chart?width=650&height=350&backgroundColor=white&format=png&c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Purchase%20sessions%22%2C%22Non-purchase%20sessions%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B1908%2C10297%5D%2C%22backgroundColor%22%3A%5B%22%2316A085%22%2C%22%23D6E4F0%22%5D%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Session%20Purchase%20Outcome%22%7D%2C%22legend%22%3A%7B%22position%22%3A%22bottom%22%7D%7D%2C%22cutout%22%3A%2262%25%22%7D%7D) | ![Conversion by visitor type](https://quickchart.io/chart?width=650&height=350&backgroundColor=white&format=png&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22New%20Visitor%22%2C%22Returning%20Visitor%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Conversion%20rate%20(%25)%22%2C%22data%22%3A%5B24.93%2C14.09%5D%2C%22backgroundColor%22%3A%5B%22%232874A6%22%2C%22%2376D7C4%22%5D%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Conversion%20Rate%20by%20Visitor%20Type%22%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22y%22%3A%7B%22beginAtZero%22%3Atrue%2C%22max%22%3A30%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Conversion%20rate%20(%25)%22%7D%7D%7D%7D%7D) |
+
+| Weekend vs Weekday | November Conversion |
+|---|---|
+| ![Weekend and weekday conversion](https://quickchart.io/chart?width=650&height=350&backgroundColor=white&format=png&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Weekend%22%2C%22Weekday%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Conversion%20rate%20(%25)%22%2C%22data%22%3A%5B17.45%2C15.08%5D%2C%22backgroundColor%22%3A%5B%22%237D3C98%22%2C%22%235DADE2%22%5D%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Weekend%20vs%20Weekday%20Conversion%22%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22y%22%3A%7B%22beginAtZero%22%3Atrue%2C%22max%22%3A20%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Conversion%20rate%20(%25)%22%7D%7D%7D%7D%7D) | ![November conversion rate](https://quickchart.io/chart?width=650&height=350&backgroundColor=white&format=png&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22November%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Conversion%20rate%20(%25)%22%2C%22data%22%3A%5B25.49%5D%2C%22backgroundColor%22%3A%5B%22%23E67E22%22%5D%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Highest%20Monthly%20Conversion%20Highlight%22%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22y%22%3A%7B%22beginAtZero%22%3Atrue%2C%22max%22%3A30%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Conversion%20rate%20(%25)%22%7D%7D%7D%7D%7D) |
+
+> **Note:** These are README summary charts built from the key figures reported in this project. The full exploratory visualizations and detailed interpretations are available in the notebook.
+
+### 🔄 Analysis Workflow
+
+```mermaid
+flowchart TD
+    A[Load Online Shoppers Dataset] --> B[Inspect Data]
+    B --> C[Clean Duplicates and Validate]
+    C --> D[Feature Engineering]
+    D --> E[Exploratory Data Analysis]
+    E --> F[Statistical Analysis]
+    F --> G[Visualize Purchase Behaviour]
+    G --> H[Insights and Recommendations]
+```
+
 ## ⚙️ Project Workflow
 
 ### Stage 1: Data Loading and Initial Inspection
